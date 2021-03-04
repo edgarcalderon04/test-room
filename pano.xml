@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="18043" id="node1" appversion="6.1.11">
+  <input overlap="1" levelingroll="0" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1920" levelingpitch="0" levelbiashidpi="1.000" height="1920">
+    <level width="1920" preload="0" predecode="0" height="1920"/>
+    <level width="960" preload="0" predecode="0" height="960"/>
+    <level width="480" preload="1" predecode="1" height="480"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start fov="70" pan="138.066" projection="4" tilt="-3.0684"/>
+    <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+    <min fovpixel="2" pan="0" tilt="-90"/>
+    <max fov="120" pan="360" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="270"/>
+  </view>
+  <userdata copyright="Kandao" tags="Edited HDR" heading="0" title="" latitude="39.438889" description="" datetime="2/28/2021 4:10 PM" comment="" customnodeid="" info="" longitude="-75.057222" author="" source="" nodeid="node1"/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label border="1" enabled="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" width="180" textalpha="1" borderradius="1" backgroundalpha="1" height="20" textcolor="0x000000" background="1" bordercolor="0x000000"/>
+    <polystyle handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+    <hotspot fov="32.2376" skinid="ht_video_file" pan="-250.91" distance3D="7085" title="Virtual Open House: Cumberland Dukes Athletics" use3D="1" id="Point01" description="" customimagewidth="4095" tilt="1.33" url="media/Virtual Open House Cumberland Dukes Athletics_720p.mp4" target="_blank" customimage="media/New Phototastic Collage.jpg" customimageheight="2305"/>
+    <hotspot fov="14.79" skinid="ht_image" pan="-113.11" distance3D="15775.7" title="OFFICE" use3D="1" id="Point02" description="We've been busy making sure every student in every area has the tools they need to succeed. Take a look at what we've done to make your education better." customimagewidth="4095" tilt="-1.97" url="images/office.jpg" target="_blank" customimage="media/New Phototastic Collage2.jpg" customimageheight="2290"/>
+    <hotspot fov="10" skinid="ht_info" pan="-162.79" distance3D="1663.07" title="WEBSITE LINK " use3D="0" id="Point03" description="" customimagewidth="291" tilt="-1.21" url="https://www.rcsj.edu/elearning/instructional-methods" target="_blank" customimage="media/logo-wbg.png" customimageheight="91"/>
+    <hotspot fov="47.76" skinid="ht_image" pan="-19.2" distance3D="215.711" title="" use3D="1" id="Point04" description="" customimagewidth="191" tilt="-6.06" url="images/Opera Snapshot_2021-02-28_173159_www.rcsj.edu.png" target="_blank" customimage="media/Opera Snapshot_2021-02-28_173159_www.rcsj.edu.png" customimageheight="183"/>
+  </hotspots>
+  <media>
+    <video ambientlevel="0.000" height="720" pan="-189.730" stretch="1.000" rotz="0.000" tilt="6.370" clickmode="0" pansize="10.000" tiltsize="10.000" roty="0.000" handcursor="0" width="1280" id="Element01" level="1.000" field="90.000" mode="3" loop="1" startmutedmobile="0" rotx="0.000" fov="20.990" nodechangekeep="0">
+      <source url="media/Virtual Open House Cumberland Dukes Athletics_720p.mp4"/>
+    </video>
+  </media>
+  <transition zoomin="0" enabled="1" softedge="0" zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20" zoomout="0" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomoutpause="1"/>
+  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+  <control lockedmouse="0" invertwheel="0" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" rubberband="0" simulatemass="1" invertcontrol="1" contextfullscreen="1" sensitivity="8" dblclickfullscreen="0" lockedkeyboard="0" contextprojections="0"/>
+</panorama>
