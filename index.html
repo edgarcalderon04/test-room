@@ -56,3 +56,10 @@
 		<div style="width:1px;height:1px;"></div>
 	</body>
 </html>
+echo "# TEST-FOLDER" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/edgarcalderon04/TEST-FOLDER.git
+git push -u origin main
